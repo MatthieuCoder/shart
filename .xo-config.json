@@ -1,0 +1,7 @@
+{
+	"envs": [
+		"node",
+		"es2020"
+	],
+	"prettier": true
+}
