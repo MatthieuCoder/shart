@@ -1,48 +1,47 @@
 {
-  "name": "shart",
-  "version": "1.0.0",
-  "description": "Discord.js Framework to create the next big bot!",
-  "main": "lib/index.js",
-  "repository": {
-		"url": "github:n1c00o/shart",
-		"type": "git"
-	},
-  "homepage": "https://github.com/n1c00o/shart#readme",
-  "bugs": {
-		"url": "https://github.com/n1c00o/shart/issues"
-	},
-  "readme": "README.md",
-	"author": "n1c00o <git.n1c00o@gmail.com> (https://github.com/n1c00o)",
-	"contributors": [
-		"MatthieuCoder (https://github.com/MatthieuCoder)"
-	],
-  "license": "MIT",
-	"private": false,
-	"bin": "lib/cli.js",
-	"engines": {
-		"node": ">=14.15.1"
-	},
-	"keywords": [
-		"discord.js",
-		"framework",
-		"discord",
-		"bot",
-		"typescript",
-		"javascript",
-		"node.js"
-	],
-  "devDependencies": {
-    "@types/node": "^14.14.9",
-    "@types/ws": "^7.4.0",
-    "prettier": "^2.2.0",
-    "typescript": "^4.1.2",
-    "xo": "^0.35.0"
-  },
-  "dependencies": {
-    "discord.js": "^12.4.1"
-  },
-  "scripts": {
-    "lint": "yarn xo",
-    "build": "yarn tsc --pretty"
-  }
+ "name": "shart",
+ "version": "1.0.0",
+ "description": "Discord.js Framework to create the next big bot!",
+ "main": "lib/index.js",
+ "repository": {
+  "url": "github:n1c00o/shart",
+  "type": "git"
+ },
+ "homepage": "https://github.com/n1c00o/shart#readme",
+ "bugs": {
+  "url": "https://github.com/n1c00o/shart/issues"
+ },
+ "readme": "README.md",
+ "author": "n1c00o <git.n1c00o@gmail.com> (https://github.com/n1c00o)",
+ "contributors": [
+  "MatthieuCoder (https://github.com/MatthieuCoder)"
+ ],
+ "license": "MIT",
+ "private": false,
+ "bin": "lib/cli.js",
+ "engines": {
+  "node": ">=14.15.1"
+ },
+ "keywords": [
+  "discord.js",
+  "framework",
+  "discord",
+  "bot",
+  "typescript",
+  "javascript",
+  "node.js"
+ ],
+ "devDependencies": {
+  "@types/node": "^14.14.9",
+  "@types/ws": "^7.4.0",
+  "typescript": "^4.1.2",
+  "xo": "^0.35.0"
+ },
+ "dependencies": {
+  "discord.js": "^12.4.1"
+ },
+ "scripts": {
+  "lint": "yarn xo",
+  "build": "yarn tsc --pretty"
+ }
 }
