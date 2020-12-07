@@ -1,0 +1,22 @@
+name: 'lint the files'
+
+on:
+  pull_request:
+    paths-ignore:
+      - '**.md'    
+  push:    
+    paths-ignore:
+      - '**.md'
+
+jobs:
+  build:
+    runs-on: ubuntu-16.04
+    name: Lint the typescript project
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+      - run: npm install
+      - run: npm lint

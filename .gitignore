@@ -1,4 +1,4 @@
 node_modules/
 .vscode/
-# lib is the compiled typescript folder
-lib/
+# dist is the compiled typescript folder
+dist/

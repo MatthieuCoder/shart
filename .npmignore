@@ -1,6 +1,7 @@
 node_modules/
 yarn.lock
 package-lock.json
+*.md
 
 .vscode/
 src/
@@ -11,3 +12,4 @@ test/
 .prettierrc
 .gitignore
 tsconfig.json
+.xo-config.json
